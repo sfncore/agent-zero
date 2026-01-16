@@ -1,5 +1,6 @@
 # Use the latest slim version of Kali Linux
-FROM kalilinux/kali-rolling
+# Use Ubuntu 25.10 as base
+FROM ubuntu:25.10
 
 
 # Set locale to en_US.UTF-8 and timezone to UTC
